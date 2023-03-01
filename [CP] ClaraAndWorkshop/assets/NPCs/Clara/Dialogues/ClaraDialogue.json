@@ -1,0 +1,13 @@
+{
+  "Mon": "Hey @! #$q 30005/30006 wellbeingquestion_followup#So how are you doing?#$r 30005 15 wellbeingquestion_yes#I'm doing great!#$r 30006 5 wellbeingquestion_meh#I'm okay.#$r 30006 0 wellbeingquestion_no#Not so well...",
+  "wellbeingquestion_yes": "That's great to hear!",
+  "wellbeingquestion_meh": "Oh. I hope it's going to be better tomorrow.",
+  "wellbeingquestion_no": "That's awful to hear. You know I'm here for you if you need to have someone lending an ear for you",
+  "wellbeingquestion_followup": "Anyway, see you around!",
+  "Tue": "Hi there!",
+  "Wed": "Hello.",
+  "Thu": "Greetings.",
+  "Fri": "Good day, @",
+  "Sat": "Hey, hey!",
+  "Sun": "Good to see you!"
+}

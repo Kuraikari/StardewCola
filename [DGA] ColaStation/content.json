@@ -1,0 +1,132 @@
+[
+  {
+    "$ItemType": "BigCraftable",
+    "ID": "Cola Station",
+    "Texture": "assets/colastation.png:0"
+  },
+  {
+    "$ItemType": "BigCraftable",
+    "ID": "Kola Grinder",
+    "Texture": "assets/kola_grinder.png:0"
+  },
+  {
+    "$ItemType": "BigCraftable",
+    "ID": "Kola Bottler",
+    "Texture": "assets/kola_bottler.png:0"
+  },
+  {
+    "$ItemType": "BigCraftable",
+    "ID": "Kola Moisturizer",
+    "Texture": "assets/kola_moisturizer.png:0"
+  },
+  {
+    "$ItemType": "MachineRecipe",
+    "MachineId": "Kuraikari.StardewCola.ColaStation/Kola Grinder",
+    "MinutesToProcess": 30,
+    "Ingredients": [
+      {
+        "Type": "VanillaObject",
+        "Value": "Kola Nut",
+        "Quantity": 5
+      }
+    ],
+    "Result": {
+      "Type": "VanillaObject",
+      "Value": "Kola Nut Powder"
+    },
+    "WorkingLightOverride": true,
+    "MachineWorkingTextureOverride": "assets/kola_grinder.png:0",
+    "MachinePulseWhileWorking": true
+  },
+
+  {
+    "$ItemType": "MachineRecipe",
+    "MachineId": "Kuraikari.StardewCola.ColaStation/Kola Moisturizer",
+    "MinutesToProcess": 40,
+    "Ingredients": [
+      {
+        "Type": "VanillaObject",
+        "Value": "Kola Nut Powder",
+        "Quantity": 5
+      }
+    ],
+    "Result": {
+      "Type": "VanillaObject",
+      "Value": "Kola Nut Syrup"
+    },
+    "WorkingLightOverride": true,
+    "MachineWorkingTextureOverride": "assets/kola_moisturizer.png:0..2@2",
+    "MachinePulseWhileWorking": true
+  },
+
+  {
+    "$ItemType": "MachineRecipe",
+    "MachineId": "Kuraikari.StardewCola.ColaStation/Kola Bottler",
+    "MinutesToProcess": 50,
+    "Ingredients": [
+      {
+        "Type": "VanillaObject",
+        "Value": "Kola Nut Syrup",
+        "Quantity": 5
+      }
+    ],
+    "Result": {
+      "Type": "VanillaObject",
+      "Value": "Base Cola"
+    },
+    "WorkingLightOverride": true,
+    "MachineWorkingTextureOverride": "assets/kola_bottler.png:0..3@3",
+    "MachinePulseWhileWorking": true
+  },
+
+
+  // COLA FLAVORS
+  {
+    "$ItemType": "MachineRecipe",
+    "MachineId": "Kuraikari.StardewCola.ColaStation/Cola Station",
+    "MinutesToProcess": 100,
+    "Ingredients": [
+      {
+        "Type": "VanillaObject",
+        "Value": "Melon",
+        "Quantity": 1
+      },
+      {
+        "Type": "VanillaObject",
+        "Value": "Base Cola",
+        "Quantity": 5
+      }
+    ],
+    "Result": {
+      "Type": "VanillaObject",
+      "Value": "Cola Melon Flavor"
+    },
+    "WorkingLightOverride": true,
+    "MachineWorkingTextureOverride": "assets/colastation.png:0..2@2",
+    "MachinePulseWhileWorking": true
+  },
+  {
+    "$ItemType": "MachineRecipe",
+    "MachineId": "Kuraikari.StardewCola.ColaStation/Cola Station",
+    "MinutesToProcess": 100,
+    "Ingredients": [
+      {
+        "Type": "VanillaObject",
+        "Value": "Coffee Bean",
+        "Quantity": 1
+      },
+      {
+        "Type": "VanillaObject",
+        "Value": "Base Cola",
+        "Quantity": 5
+      }
+    ],
+    "Result": {
+      "Type": "VanillaObject",
+      "Value": "Cola Coffee Flavor"
+    },
+    "WorkingLightOverride": true,
+    "MachineWorkingTextureOverride": "assets/colastation.png:0..2@2",
+    "MachinePulseWhileWorking": true
+  }
+]

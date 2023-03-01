@@ -1,0 +1,12 @@
+{
+  "Name": "ColaStation DGA",
+  "Author": "Kuraikari",
+  "Version": "1.0.0",
+  "Description": "The content pack for the ColaStation itself",
+  "UniqueID": "Kuraikari.StardewCola.ColaStation",
+  "ContentPackFor": { "UniqueID": "spacechase0.DynamicGameAssets" },
+  "UpdateKeys": [ "" ],
+
+  "DGA.FormatVersion": 2,
+  "DGA.ConditionsFormatVersion": "1.24.0"
+}

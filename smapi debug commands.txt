@@ -1,0 +1,9 @@
+player_add name "Kola Nut" 50
+player_add name "Kola Nut Powder" 50
+player_add name "Kola Nut Syrup" 50
+player_add name "Coffee Bean" 50
+player_add name "Melon" 50
+dga_add Kuraikari.StardewCola.ColaStation/"Kola Grinder"
+dga_add Kuraikari.StardewCola.ColaStation/"Kola Moisturizer
+dga_add Kuraikari.StardewCola.ColaStation/"Kola Bottler"
+dga_add Kuraikari.StardewCola.ColaStation/"Cola Station"

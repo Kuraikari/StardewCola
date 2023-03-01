@@ -1,0 +1,59 @@
+{
+  "Format": "1.28.0",
+  "CustomLocations": [
+    {
+      "Name": "Custom_ColaStation_ColaWorkshop",
+      "FromMapFile": "assets/Maps/Custom_ColaWorkshop.tmx"
+    }
+  ],
+  "Changes": [
+    {
+      "Action": "EditMap",
+      "Target": "Maps/Custom_ColaWorkshop",
+      "MapProperties": {
+        "Warp": "16 14 Town 18 8"
+      }
+    },
+    // NPC STUFF
+    {
+      "LogName": "Clarielle Portraits",
+      "Action": "Load",
+      "Target": "Portraits/Clarielle",
+      "FromFile": "assets/NPCs/Clara/Portraits/ClaraPortrait.png"
+    },
+    {
+      "LogName": "Clarielle Sprites",
+      "Action": "Load",
+      "Target": "Characters/Clarielle",
+      "FromFile": "assets/NPCs/Clara/Sprites/ClaraSprite.png"
+    },
+    {
+      "LogName": "Clarielle Dialogue",
+      "Action": "Load",
+      "Target": "Characters/Dialogue/Clarielle",
+      "FromFile": "assets/NPCs/Clara/Dialogues/ClaraDialogue.json"
+    },
+    {
+      "LogName": "Clarielle Schedule",
+      "Action": "Load",
+      "Target": "Characters/schedules/Clarielle",
+      "FromFile": "assets/NPCs/Clara/Schedules/ClaraSchedule.json"
+    },
+    {
+      "LogName": "NPC Manifestation",
+      "Action": "EditData",
+      "Target": "Data/NPCDispositions",
+      "Entries": {
+        "Clarielle": "teen/neutral/outgoing/positive/female/not-datable/Robin/Town/summer 8/Robin ''/Town 26 22/Clara"
+      }
+    },
+    {
+      "LogName": "NPC Gift Tastes",
+      "Action": "EditData",
+      "Target": "Data/NPCGiftTastes",
+      "Entries": {
+        "Clarielle": "wow, thanks! You've been doing your research. I love this!/581 586 587 563 730/This is wicked - and I mean that in a good way!/96 97 98 99/Um, yeah, not really my thing but it's the thought that counts, I guess.../440 346 209/Oh aren't you a jokester? What is this? Trash?/196 2 156/Thanks!//"
+      }
+    }
+  ]
+}
