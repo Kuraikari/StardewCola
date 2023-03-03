@@ -1,9 +1,9 @@
 {
-    "Name": "Cola Melon Flavor", //The name you would like your object to have, this should be identical to the subfolder name.
-    "Description": "The melon flavor version of the cola beverage, crafted using the syrup from the kola nut and a load of melons", //Description of the product.
+    "Name": "Cola Honey Flavor", //The name you would like your object to have, this should be identical to the subfolder name.
+    "Description": "The honey flavor version of the cola beverage, crafted using the syrup from the kola nut and a sprinkle of honey", //Description of the product.
     "Category": "Cooking", //This should match the crop.json Type or for fruit trees should be one of the following: Flower, Fruit, Vegetable, Gem, Fish, Egg, Milk, Cooking, Crafting, Mineral, Meat, Metal, Junk, Syrup, MonsterLoot, ArtisanGoods, and Seeds.
     "Edibility": 21, //Edibility is for health, energy is calculated by the game. For inedibile items, set to -300.
-    "Price": 445, //How much your item sells for.
+    "Price": 435, //How much your item sells for.
     "IsColored": false, //(optional) Set this value to true if your product is colored. Primairly applies to flowers.
     "Recipe": null, //Set to null.
     "GiftTastes": //If an NPC isn't listed their gift taste will be neautral. If every NPC is specified you may remove unused categories.
