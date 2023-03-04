@@ -1,0 +1,13 @@
+{
+  "Name": "KolaQuests",
+  "Author": "Kuraikari",
+  "Version": "1.0.0",
+  "Description": "KolaQuests adds quests related to Kola and Cola products from the other mods.",
+  "UniqueID": "Kuraikari.StardewCola.KolaQuests",
+  "MinimumApiVersion": "3.6.0",
+  "UpdateKeys": [],
+  "ContentPackFor": {
+    "UniqueID": "PurrplingCat.QuestFramework", // Quest Framework unique id must be here
+    "MinimumVersion": "1.2.0" // optional
+  }
+}
