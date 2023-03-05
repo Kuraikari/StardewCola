@@ -1,3 +1,119 @@
 [
+  {
+    "$ItemType": "CraftingRecipe",
+    "ID": "Kola Nut Grinder",
+    "Result": {
+      "Value": "Kuraikari.StardewCola.ColaStation/Kola Grinder",
+      "Quantity": 1
+    },
+    "Ingredients": [
+      {
+        "Type": "VanillaObject",
+        "Value": "Gold Bar",
+        "Quantity": 5
+      },
+      {
+        "Type": "VanillaObject",
+        "Value": "Stone",
+        "Quantity": 40
+      }
 
+    ]
+  },
+
+  {
+    "$ItemType": "CraftingRecipe",
+    "ID": "Kola Nut Moisturizer",
+    "Result": {
+      "Value": "Kuraikari.StardewCola.ColaStation/Kola Moisturizer",
+      "Quantity": 1
+    },
+    "Ingredients": [
+      {
+        "Type": "VanillaObject",
+        "Value": "Gold Bar",
+        "Quantity": 5
+      },
+      {
+        "Type": "VanillaObject",
+        "Value": "Stone",
+        "Quantity": 40
+      }
+    ]
+  },
+
+  {
+    "$ItemType": "CraftingRecipe",
+    "ID": "Kola Nut Bottler",
+    "Result": {
+      "Value": "Kuraikari.StardewCola.ColaStation/Kola Bottler",
+      "Quantity": 1
+    },
+    "Ingredients": [
+      {
+        "Type": "VanillaObject",
+        "Value": "Gold Bar",
+        "Quantity": 5
+      },
+      {
+        "Type": "VanillaObject",
+        "Value": "Stone",
+        "Quantity": 40
+      }
+    ]
+  },
+
+  {
+    "$ItemType": "CraftingRecipe",
+    "ID": "Kola Nut Extractor",
+    "Result": {
+      "Value": "Kuraikari.StardewCola.ColaStation/Kola Extractor",
+      "Quantity": 1
+    },
+    "Ingredients": [
+      {
+        "Type": "VanillaObject",
+        "Value": "Gold Bar",
+        "Quantity": 5
+      },
+      {
+        "Type": "VanillaObject",
+        "Value": "Stone",
+        "Quantity": 40
+      }
+    ]
+  },
+
+  {
+    "$ItemType": "CraftingRecipe",
+    "ID": "Cola Station Recipe",
+    "Result": {
+      "Value": "Kuraikari.StardewCola.ColaStation/Cola Station",
+      "Quantity": 1
+    },
+    "Ingredients": [
+      {
+        "Type": "VanillaObject",
+        "Value": "Gold Bar",
+        "Quantity": 5
+      },
+      {
+        "Type": "VanillaObject",
+        "Value": "Stone",
+        "Quantity": 40
+      },
+      {
+        "Value": "Kuraikari.StardewCola.ColaStation/Kola Grinder",
+        "Quantity": 1
+      },
+      {
+        "Value": "Kuraikari.StardewCola.ColaStation/Kola Moisturizer",
+        "Quantity": 1
+      },
+      {
+        "Value": "Kuraikari.StardewCola.ColaStation/Kola Bottler",
+        "Quantity": 1
+      }
+    ]
+  }
 ]

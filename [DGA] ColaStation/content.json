@@ -1,5 +1,9 @@
 [
   {
+    "$ItemType": "ContentIndex",
+    "FilePath": "crafting-recipes.json"
+  },
+  {
     "$ItemType": "BigCraftable",
     "ID": "Cola Station",
     "Texture": "assets/colastation.png:0"
@@ -20,19 +24,24 @@
     "Texture": "assets/kola_moisturizer.png:0"
   },
   {
+    "$ItemType": "BigCraftable",
+    "ID": "Kola Extractor",
+    "Texture": "assets/kola_extractor.png:0"
+  },
+  {
     "$ItemType": "MachineRecipe",
     "MachineId": "Kuraikari.StardewCola.ColaStation/Kola Grinder",
     "MinutesToProcess": 20,
     "Ingredients": [
       {
         "Type": "VanillaObject",
-        "Value": "Kola Nut",
+        "Value": "Red Kola Nut",
         "Quantity": 5
       }
     ],
     "Result": {
       "Type": "VanillaObject",
-      "Value": "Kola Nut Powder"
+      "Value": "Red Kola Nut Powder"
     },
     "WorkingLightOverride": true,
     "MachineWorkingTextureOverride": "assets/kola_grinder.png:0",
@@ -46,13 +55,13 @@
     "Ingredients": [
       {
         "Type": "VanillaObject",
-        "Value": "Kola Nut Powder",
+        "Value": "Red Kola Nut Powder",
         "Quantity": 5
       }
     ],
     "Result": {
       "Type": "VanillaObject",
-      "Value": "Kola Nut Syrup"
+      "Value": "Red Kola Nut Syrup"
     },
     "WorkingLightOverride": true,
     "MachineWorkingTextureOverride": "assets/kola_moisturizer.png:0..2@2",
@@ -66,7 +75,7 @@
     "Ingredients": [
       {
         "Type": "VanillaObject",
-        "Value": "Kola Nut Syrup",
+        "Value": "Red Kola Nut Syrup",
         "Quantity": 5
       }
     ],
@@ -76,6 +85,26 @@
     },
     "WorkingLightOverride": true,
     "MachineWorkingTextureOverride": "assets/kola_bottler.png:0..3@3",
+    "MachinePulseWhileWorking": true
+  },
+
+  {
+    "$ItemType": "MachineRecipe",
+    "MachineId": "Kuraikari.StardewCola.ColaStation/Kola Extractor",
+    "MinutesToProcess": 60,
+    "Ingredients": [
+      {
+        "Type": "VanillaObject",
+        "Value": "Red Kola Nut",
+        "Quantity": 5
+      }
+    ],
+    "Result": {
+      "Type": "VanillaObject",
+      "Value": "Red Kola Nut Extract"
+    },
+    "WorkingLightOverride": true,
+    "MachineWorkingTextureOverride": "assets/kola_extractor.png:0..3@3",
     "MachinePulseWhileWorking": true
   },
 
