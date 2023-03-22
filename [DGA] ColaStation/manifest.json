@@ -5,7 +5,7 @@
   "Description": "The content pack for the ColaStation itself",
   "UniqueID": "Kuraikari.StardewCola.ColaStation",
   "ContentPackFor": { "UniqueID": "spacechase0.DynamicGameAssets" },
-  "UpdateKeys": [ "" ],
+  "UpdateKeys": [ "Nexus:15958" ],
   "Dependencies": [
     {
       "UniqueID": "Kuraikari.ExoticFruits"

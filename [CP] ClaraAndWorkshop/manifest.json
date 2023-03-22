@@ -5,7 +5,7 @@
   "Description": "The content patcher mod to add the NPC Clara and her Workshop",
   "UniqueID": "Kuraikari.StardewCola.ClaraAndWorkshop",
   "MinimumApiVersion": "3.13.0",      // Minimum SMAPI version, use whatever is current
-   "UpdateKeys": [""],
+  "UpdateKeys": [ "Nexus:15958" ],
    "ContentPackFor": {
 	  "UniqueID": "Pathoschild.ContentPatcher",
 	  "MinimumVersion": "1.24.0" // Minimum Content Patcher version, use whatever is current
