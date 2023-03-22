@@ -1,14 +1,14 @@
 {
   "Name": "ColaStation DGA",
-  "Author": "Kuraikari",
+  "Author": "KuraikariCH",
   "Version": "1.0.0",
   "Description": "The content pack for the ColaStation itself",
-  "UniqueID": "Kuraikari.StardewCola.ColaStation",
+  "UniqueID": "KuraikariCH.StardewCola.ColaStation",
   "ContentPackFor": { "UniqueID": "spacechase0.DynamicGameAssets" },
   "UpdateKeys": [ "Nexus:15958" ],
   "Dependencies": [
     {
-      "UniqueID": "Kuraikari.ExoticFruits"
+      "UniqueID": "KuraikariCH.ExoticFruits"
     }
   ],
 

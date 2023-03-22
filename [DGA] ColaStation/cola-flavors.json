@@ -2,7 +2,7 @@
 [
   {
     "$ItemType": "MachineRecipe",
-    "MachineId": "Kuraikari.StardewCola.ColaStation/Cola Station",
+    "MachineId": "KuraikariCH.StardewCola.ColaStation/Cola Station",
     "MinutesToProcess": 100,
     "Ingredients": [
       {
@@ -26,7 +26,7 @@
   },
   {
     "$ItemType": "MachineRecipe",
-    "MachineId": "Kuraikari.StardewCola.ColaStation/Cola Station",
+    "MachineId": "KuraikariCH.StardewCola.ColaStation/Cola Station",
     "MinutesToProcess": 100,
     "Ingredients": [
       {
@@ -50,7 +50,7 @@
   },
   {
     "$ItemType": "MachineRecipe",
-    "MachineId": "Kuraikari.StardewCola.ColaStation/Cola Station",
+    "MachineId": "KuraikariCH.StardewCola.ColaStation/Cola Station",
     "MinutesToProcess": 100,
     "Ingredients": [
       {
@@ -74,7 +74,7 @@
   },
   {
     "$ItemType": "MachineRecipe",
-    "MachineId": "Kuraikari.StardewCola.ColaStation/Cola Station",
+    "MachineId": "KuraikariCH.StardewCola.ColaStation/Cola Station",
     "MinutesToProcess": 100,
     "Ingredients": [
       {

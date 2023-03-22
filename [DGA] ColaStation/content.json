@@ -30,7 +30,7 @@
   },
   {
     "$ItemType": "MachineRecipe",
-    "MachineId": "Kuraikari.StardewCola.ColaStation/Kola Grinder",
+    "MachineId": "KuraikariCH.StardewCola.ColaStation/Kola Grinder",
     "MinutesToProcess": 20,
     "Ingredients": [
       {
@@ -50,7 +50,7 @@
 
   {
     "$ItemType": "MachineRecipe",
-    "MachineId": "Kuraikari.StardewCola.ColaStation/Kola Moisturizer",
+    "MachineId": "KuraikariCH.StardewCola.ColaStation/Kola Moisturizer",
     "MinutesToProcess": 40,
     "Ingredients": [
       {
@@ -70,7 +70,7 @@
 
   {
     "$ItemType": "MachineRecipe",
-    "MachineId": "Kuraikari.StardewCola.ColaStation/Kola Bottler",
+    "MachineId": "KuraikariCH.StardewCola.ColaStation/Kola Bottler",
     "MinutesToProcess": 50,
     "Ingredients": [
       {
@@ -90,7 +90,7 @@
 
   {
     "$ItemType": "MachineRecipe",
-    "MachineId": "Kuraikari.StardewCola.ColaStation/Kola Extractor",
+    "MachineId": "KuraikariCH.StardewCola.ColaStation/Kola Extractor",
     "MinutesToProcess": 60,
     "Ingredients": [
       {

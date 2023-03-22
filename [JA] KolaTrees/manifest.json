@@ -1,10 +1,10 @@
 {
   "Name": "[JA] KolaTrees",
-  "Author": "Kuraikari",
+  "Author": "KuraikariCH",
   "Version": "1.0.0",
   "MinimumApiVersion": "3.13.0",
   "Description": "Fruit trees for the Red Kola Nut for JsonAssets",
-  "UniqueID": "Kuraikari.StardewCola.KolaTrees",
+  "UniqueID": "KuraikariCH.StardewCola.KolaTrees",
   "ContentPackFor": {
     "UniqueID": "spacechase0.JsonAssets"
   },

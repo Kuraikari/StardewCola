@@ -1,9 +1,9 @@
 {
   "Name": "KolaQuests",
-  "Author": "Kuraikari",
+  "Author": "KuraikariCH",
   "Version": "1.0.0",
   "Description": "KolaQuests adds quests related to Kola and Cola products from the other mods.",
-  "UniqueID": "Kuraikari.StardewCola.KolaQuests",
+  "UniqueID": "KuraikariCH.StardewCola.KolaQuests",
   "MinimumApiVersion": "3.6.0",
   "UpdateKeys": [],
   "ContentPackFor": {
