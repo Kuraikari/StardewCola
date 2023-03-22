@@ -6,6 +6,11 @@
   "UniqueID": "Kuraikari.StardewCola.ColaStation",
   "ContentPackFor": { "UniqueID": "spacechase0.DynamicGameAssets" },
   "UpdateKeys": [ "" ],
+  "Dependencies": [
+    {
+      "UniqueID": "Kuraikari.ExoticFruits"
+    }
+  ],
 
   "DGA.FormatVersion": 2,
   "DGA.ConditionsFormatVersion": "1.24.0"

@@ -1,0 +1,99 @@
+// COLA FLAVORS
+[
+  {
+    "$ItemType": "MachineRecipe",
+    "MachineId": "Kuraikari.StardewCola.ColaStation/Cola Station",
+    "MinutesToProcess": 100,
+    "Ingredients": [
+      {
+        "Type": "VanillaObject",
+        "Value": "Melon",
+        "Quantity": 1
+      },
+      {
+        "Type": "VanillaObject",
+        "Value": "Base Cola",
+        "Quantity": 5
+      }
+    ],
+    "Result": {
+      "Type": "VanillaObject",
+      "Value": "Cola Melon Flavor"
+    },
+    "WorkingLightOverride": true,
+    "MachineWorkingTextureOverride": "assets/colastation.png:0..2@2",
+    "MachinePulseWhileWorking": true
+  },
+  {
+    "$ItemType": "MachineRecipe",
+    "MachineId": "Kuraikari.StardewCola.ColaStation/Cola Station",
+    "MinutesToProcess": 100,
+    "Ingredients": [
+      {
+        "Type": "VanillaObject",
+        "Value": "Honey",
+        "Quantity": 1
+      },
+      {
+        "Type": "VanillaObject",
+        "Value": "Base Cola",
+        "Quantity": 5
+      }
+    ],
+    "Result": {
+      "Type": "VanillaObject",
+      "Value": "Cola Honey Flavor"
+    },
+    "WorkingLightOverride": true,
+    "MachineWorkingTextureOverride": "assets/colastation.png:0..2@2",
+    "MachinePulseWhileWorking": true
+  },
+  {
+    "$ItemType": "MachineRecipe",
+    "MachineId": "Kuraikari.StardewCola.ColaStation/Cola Station",
+    "MinutesToProcess": 100,
+    "Ingredients": [
+      {
+        "Type": "VanillaObject",
+        "Value": "Orange",
+        "Quantity": 1
+      },
+      {
+        "Type": "VanillaObject",
+        "Value": "Base Cola",
+        "Quantity": 5
+      }
+    ],
+    "Result": {
+      "Type": "VanillaObject",
+      "Value": "Cola Orange Flavor"
+    },
+    "WorkingLightOverride": true,
+    "MachineWorkingTextureOverride": "assets/colastation.png:0..2@2",
+    "MachinePulseWhileWorking": true
+  },
+  {
+    "$ItemType": "MachineRecipe",
+    "MachineId": "Kuraikari.StardewCola.ColaStation/Cola Station",
+    "MinutesToProcess": 100,
+    "Ingredients": [
+      {
+        "Type": "VanillaObject",
+        "Value": "Coffee Bean",
+        "Quantity": 1
+      },
+      {
+        "Type": "VanillaObject",
+        "Value": "Base Cola",
+        "Quantity": 5
+      }
+    ],
+    "Result": {
+      "Type": "VanillaObject",
+      "Value": "Cola Coffee Flavor"
+    },
+    "WorkingLightOverride": true,
+    "MachineWorkingTextureOverride": "assets/colastation.png:0..2@2",
+    "MachinePulseWhileWorking": true
+  }
+]
