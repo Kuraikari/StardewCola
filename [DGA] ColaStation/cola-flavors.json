@@ -1,4 +1,3 @@
-// COLA FLAVORS
 [
   {
     "$ItemType": "MachineRecipe",
@@ -24,6 +23,7 @@
     "MachineWorkingTextureOverride": "assets/colastation.png:0..2@2",
     "MachinePulseWhileWorking": true
   },
+
   {
     "$ItemType": "MachineRecipe",
     "MachineId": "KuraikariCH.StardewCola.ColaStation/Cola Station",
@@ -48,6 +48,7 @@
     "MachineWorkingTextureOverride": "assets/colastation.png:0..2@2",
     "MachinePulseWhileWorking": true
   },
+
   {
     "$ItemType": "MachineRecipe",
     "MachineId": "KuraikariCH.StardewCola.ColaStation/Cola Station",
@@ -72,6 +73,7 @@
     "MachineWorkingTextureOverride": "assets/colastation.png:0..2@2",
     "MachinePulseWhileWorking": true
   },
+
   {
     "$ItemType": "MachineRecipe",
     "MachineId": "KuraikariCH.StardewCola.ColaStation/Cola Station",

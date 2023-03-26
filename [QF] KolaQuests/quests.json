@@ -1,0 +1,147 @@
+{
+  "Format": "1.0", // this is required
+  "Quests": [
+    {
+      "Name": "clara_kolanuttree", // No id needed, will be automatically generated
+      "Type": "ItemDelivery", // Vanilla quest type
+      "Title": "First steps to Cola 1/3",
+      "Description": "Clara wants you to bring her the fruit of a Red Kola Nut Tree.",
+      "Objective": "Bring Kola Nut to Clara",
+      "DaysLeft": 0,
+      "Reward": 300,
+      "RewardType": "Money",
+      "Cancelable": false, // This quest can be cancelled by player
+      "Trigger": "Clarielle {{ja:Red Kola Nut}}",
+      "ReactionText": "Thanks! Now that you have a Red Kola Tree that gives you its fruit, you should try to process it.",
+      "FriendshipGain": {
+        "Clara": 150 // Gain 100 additional friendship points when this quest was completed
+      }
+    },
+
+    {
+      "Name": "clara_kolanutpowder",
+      "Type": "ItemDelivery",
+      "Title": "First steps to Cola 2/3",
+      "Description": "Clara wants you to bring her the powder of the Red Kola Nut.",
+      "Objective": "Bring Kola Nut Powder to Clara",
+      "DaysLeft": 0,
+      "Reward": 300,
+      "RewardType": "Money",
+      "Cancelable": false,
+      "Trigger": "Clarielle {{ja:Red Kola Nut Powder}}",
+      "ReactionText": "Great! Now that you're able to make powder, we need to moisturize it. I'll give you the recipe for my newest machine!",
+      "FriendshipGain": {
+        "Clara": 150
+      }
+    },
+
+    {
+      "Name": "clara_kolanutsyrup",
+      "Type": "ItemDelivery",
+      "Title": "First steps to Cola 3/3",
+      "Description": "Clara wants you to bring her the syrup of the Red Kola Nut.",
+      "Objective": "Bring Kola Nut to Clara",
+      "DaysLeft": 0,
+      "Reward": 300,
+      "RewardType": "Money",
+      "Cancelable": false,
+      "Trigger": "Clarielle {{ja:Red Kola Nut Syrup}}",
+      "ReactionText": "Very good! ",
+      "FriendshipGain": {
+        "Clara": 150
+      }
+    },
+
+    {
+      "Name": "clara_basecola",
+      "Type": "ItemDelivery",
+      "Title": "Final steps to Cola 1/2",
+      "Description": "Clara wants you to bring her the base for the cola.",
+      "Objective": "Bring Kola Nut to Clara",
+      "DaysLeft": 0,
+      "Reward": 300,
+      "RewardType": "Money",
+      "Cancelable": false,
+      "Trigger": "Clarielle {{ja:Base Cola}}",
+      "ReactionText": "Very good! ",
+      "FriendshipGain": {
+        "Clara": 150
+      }
+    },
+
+    {
+      "Name": "clara_firstflavor",
+      "Type": "ItemDelivery",
+      "Title": "Final steps to Cola 2/2",
+      "Description": "Clara wants you to bring her any flavored cola.",
+      "Objective": "Bring Kola Nut to Clara",
+      "DaysLeft": 0,
+      "Reward": 300,
+      "RewardType": "Money",
+      "Cancelable": false,
+      "Trigger": "Clarielle {{ja:Cola }}",
+      "ReactionText": "Tasty! Wow! We finally got our own flavored cola! Thanks for helping me with this experiment!",
+      "FriendshipGain": {
+        "Clara": 150
+      }
+    }
+  ],
+
+
+
+
+  "Offers": [
+    // (optional) quest offers are defined here
+    {
+      "QuestName": "clara_kolanuttree",
+      "OfferedBy": "NPC",
+      "OfferDetails": {
+        "NpcName": "Clarielle", // Speak to Clara to get this quest
+        "DialogueText": "I want you to plant a Red Kola Nut Tree. I want to test my new machine to see if I can process the fruits of it. #$b#@, can you bring me a Red Kola Nut?"
+      },
+      "When": {
+        "DaysOfWeek": "Monday Tuesday Thursday",
+        "Seasons": "spring summer",
+        "FriendshipLevel": "Clarielle 2",
+        "QuestNeverAccepted": "Yes"
+      }
+    },
+    {
+      "QuestName": "clara_kolanutpowder",
+      "OfferedBy": "NPC",
+      "OfferDetails": {
+        "NpcName": "Clarielle", // Speak to Clara to get this quest
+        "DialogueText": "I want you to plant a Red Kola Nut Tree. I want to test my new machine to see if I can process the fruits of it. #$b#@, can you bring me a Red Kola Nut?"
+      },
+      "When": {
+        "DaysOfWeek": "Thursday Friday Sunday",
+        "Seasons": "spring summer",
+        "FriendshipLevel": "Clarielle 2",
+        "QuestNeverAccepted": "Yes"
+      }
+    },
+    {
+      "QuestName": "clara_kolanutsyrup",
+      "OfferedBy": "NPC",
+      "OfferDetails": {
+        "NpcName": "Clarielle", // Speak to Clara to get this quest
+        "DialogueText": "I want you to plant a Red Kola Nut Tree. I want to test my new machine to see if I can process the fruits of it. #$b#@, can you bring me a Red Kola Nut?"
+      },
+      "When": {
+        "DaysOfWeek": "Saturday Monday Wednesday",
+        "Seasons": "spring summer",
+        "FriendshipLevel": "Clarielle 3",
+        "QuestNeverAccepted": "Yes"
+      }
+    }
+  ],
+
+
+
+  "CustomBoards": [
+    // (optional) define your custom quest or special order boards here
+  ],
+  "CustomDropBoxes": [
+    // (optional) define your custom drop boxes for your special orders here
+  ]
+}
