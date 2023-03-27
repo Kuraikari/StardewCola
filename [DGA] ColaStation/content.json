@@ -3,6 +3,7 @@
     "$ItemType": "ContentIndex",
     "FilePath": "crafting-recipes.json"
   },
+
   {
     "$ItemType": "BigCraftable",
     "ID": "Cola Station",
@@ -28,6 +29,9 @@
     "ID": "Kola Extractor",
     "Texture": "assets/kola_extractor.png:0"
   },
+  /*
+  * MACHINE RECIPES
+  */
   {
     "$ItemType": "MachineRecipe",
     "MachineId": "KuraikariCH.StardewCola.ColaStation/Kola Grinder",
@@ -47,9 +51,7 @@
     "MachineWorkingTextureOverride": "assets/kola_grinder.png:0",
     "MachinePulseWhileWorking": true
   },
-  /*
-  * MACHINE RECIPES
-  */
+
   {
     "$ItemType": "MachineRecipe",
     "MachineId": "KuraikariCH.StardewCola.ColaStation/Kola Moisturizer",
@@ -206,6 +208,31 @@
     "Result": {
       "Type": "VanillaObject",
       "Value": "Cola Coffee Flavor"
+    },
+    "WorkingLightOverride": true,
+    "MachineWorkingTextureOverride": "assets/colastation.png:0..2@2",
+    "MachinePulseWhileWorking": true
+  },
+
+  {
+    "$ItemType": "MachineRecipe",
+    "MachineId": "KuraikariCH.StardewCola.ColaStation/Cola Station",
+    "MinutesToProcess": 100,
+    "Ingredients": [
+      {
+        "Type": "VanillaObject",
+        "Value": "Spice Berry",
+        "Quantity": 1
+      },
+      {
+        "Type": "VanillaObject",
+        "Value": "Base Cola",
+        "Quantity": 5
+      }
+    ],
+    "Result": {
+      "Type": "VanillaObject",
+      "Value": "Cola Spice Berry Flavor"
     },
     "WorkingLightOverride": true,
     "MachineWorkingTextureOverride": "assets/colastation.png:0..2@2",

@@ -79,7 +79,7 @@
       "Reward": 300,
       "RewardType": "Money",
       "Cancelable": false,
-      "Trigger": "Clarielle {{ja:Cola }}",
+      "Trigger": "Clarielle {{ja:Cola Spice Berry Flavor}}",
       "ReactionText": "Tasty! Wow! We finally got our own flavored cola! Thanks for helping me with this experiment!",
       "FriendshipGain": {
         "Clara": 150
@@ -102,7 +102,7 @@
       "When": {
         "DaysOfWeek": "Monday Tuesday Thursday",
         "Seasons": "spring summer",
-        "FriendshipLevel": "Clarielle 2",
+        "FriendshipLevel": "Clarielle 1",
         "QuestNeverAccepted": "Yes"
       }
     },
@@ -111,7 +111,7 @@
       "OfferedBy": "NPC",
       "OfferDetails": {
         "NpcName": "Clarielle", // Speak to Clara to get this quest
-        "DialogueText": "I want you to plant a Red Kola Nut Tree. I want to test my new machine to see if I can process the fruits of it. #$b#@, can you bring me a Red Kola Nut?"
+        "DialogueText": "I want you to grind some Red Kola Nut and deliver the powder from it. #$b#@, can you bring me some Red Kola Nut Powder?"
       },
       "When": {
         "DaysOfWeek": "Thursday Friday Sunday",
@@ -131,6 +131,34 @@
         "DaysOfWeek": "Saturday Monday Wednesday",
         "Seasons": "spring summer",
         "FriendshipLevel": "Clarielle 3",
+        "QuestNeverAccepted": "Yes"
+      }
+    },
+    {
+      "QuestName": "clara_basecola",
+      "OfferedBy": "NPC",
+      "OfferDetails": {
+        "NpcName": "Clarielle", // Speak to Clara to get this quest
+        "DialogueText": "I want you to plant a Red Kola Nut Tree. I want to test my new machine to see if I can process the fruits of it. #$b#@, can you bring me a Red Kola Nut?"
+      },
+      "When": {
+        "DaysOfWeek": "Saturday Monday Wednesday",
+        "Seasons": "spring summer",
+        "FriendshipLevel": "Clarielle 4",
+        "QuestNeverAccepted": "Yes"
+      }
+    },
+    {
+      "QuestName": "clara_firstflavor",
+      "OfferedBy": "NPC",
+      "OfferDetails": {
+        "NpcName": "Clarielle", // Speak to Clara to get this quest
+        "DialogueText": "I want you to plant a Red Kola Nut Tree. I want to test my new machine to see if I can process the fruits of it. #$b#@, can you bring me a Red Kola Nut?"
+      },
+      "When": {
+        "DaysOfWeek": "Saturday Monday Wednesday",
+        "Seasons": "spring summer",
+        "FriendshipLevel": "Clarielle 5",
         "QuestNeverAccepted": "Yes"
       }
     }
