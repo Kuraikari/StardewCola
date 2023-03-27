@@ -26,10 +26,10 @@ In a more clean form of overview here are the features
 
 * 1 new Fruit Tree
 * 1 new Fruit
-* 4 new processed items usable for cooking
+* 5 new processed items usable for cooking
 * 4+ flavors for the cola (WIP)
-* 4 new machines
-* 1 new map
+* 5 new machines
+* 1 new map (WIP)
 * 1 new NPC (WIP)
 * several new quests (WIP)
 
